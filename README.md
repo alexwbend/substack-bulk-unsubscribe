@@ -1,5 +1,7 @@
 # Substack Bulk Subscriber Remover
 
+![substack-bulk-unsubscribe](./banner.png)
+
 Substack doesn't have a built-in way to bulk-unsubscribe a list of emails. If you've migrated from another platform (MailChimp, ConvertKit, etc.) and inherited a polluted list with bots or stale subscribers, your only native option is to click "Remove from list" on each subscriber one at a time. For a list with thousands of removals, that's not realistic.
 
 This is a small browser-console script that does it in minutes instead of hours, by calling the same API endpoint the Substack admin UI uses under the hood.
